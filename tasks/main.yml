@@ -9,3 +9,6 @@
   ansible.builtin.systemd:
     name: mariadb
     state: started
+
+- name: ping de la machine
+  ansible.builtin.ping:
